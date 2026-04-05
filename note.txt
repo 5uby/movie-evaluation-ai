@@ -6,9 +6,14 @@
 -cvs 파일형식
     -형식은 평가문,정답 (lable) 형식으로 주기
 
-2. 데이터 정리하기 (전처리)
--학습하기 쉽게 문장을 다듬는것
+2. 데이터 정리하기 (전처리) https://yijoon009.tistory.com/entry/text-data-preprocessing
+-정제화(학습하기 쉽게 다듬는것) 
     -띄어쓰기 없애기, 특수기호 없애기, 불용어 처리, 반복 문자 없애기 등등
+-정규화 (같은 의미나 형태로 통일)
+		-포터 스태머 https://skyjwoo.tistory.com/entry/Porter-Stemmer%ED%8F%AC%ED%84%B0-%EC%8A%A4%ED%85%8C%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90
+-토큰화 (자연어에서 최소단위 토큰으로 바꾸기) https://dhelloper.tistory.com/59
+		-NLP (자연어 처리)
+			-KoNLPy https://konlpy.org/ko/latest/index.html
 -벡터화 (단어를 숫자로 바꾸기)
     -Bag of words https://wikidocs.net/22650
 
@@ -23,4 +28,6 @@
     -손실 (loss) 계산 -> 손실함수 https://modulabs.co.kr/blog/loss-function-machinelearning
     -손실 (loss)를 줄이기 위해 가중치 수정 (손실함수 최적화 알고리즘) -> 경사하강법 https://twojun-space.tistory.com/124
     https://yhyun225.tistory.com/5
+
+질문) 전처리 과정에서 정규화와 토큰화 순서와 기능 차이 헷갈림
     
