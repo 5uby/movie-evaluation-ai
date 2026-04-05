@@ -1,0 +1,26 @@
+목표 : 영화 평가를 보고 긍정,부정인지를 평가해주는 AI 만들기
+
+<단계>
+
+1. 데이터 모으기
+-cvs 파일형식
+    -형식은 평가문,정답 (lable) 형식으로 주기
+
+2. 데이터 정리하기 (전처리)
+-학습하기 쉽게 문장을 다듬는것
+    -띄어쓰기 없애기, 특수기호 없애기, 불용어 처리, 반복 문자 없애기 등등
+-벡터화 (단어를 숫자로 바꾸기)
+    -Bag of words https://wikidocs.net/22650
+
+3. 모델 정하고 만들기
+-로지스틱 회귀 https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%ED%9A%8C%EA%B7%80
+             https://m.blog.naver.com/winddori2002/221706766540
+
+4. 학습 
+-모델이 예측
+-예측 결과가 맞는지 확인 -> 어케 앎?? -> 인간이 직접 알려주기 (정답 레이블)
+-그게 맞게 수정
+    -손실 (loss) 계산 -> 손실함수 https://modulabs.co.kr/blog/loss-function-machinelearning
+    -손실 (loss)를 줄이기 위해 가중치 수정 (손실함수 최적화 알고리즘) -> 경사하강법 https://twojun-space.tistory.com/124
+    https://yhyun225.tistory.com/5
+    
