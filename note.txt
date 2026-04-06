@@ -4,30 +4,51 @@
 
 1. 데이터 모으기
 -cvs 파일형식
-    -형식은 평가문,정답 (lable) 형식으로 주기
+    -형식은 평가문, 정답 (lable) 형식으로 주기
 
 2. 데이터 정리하기 (전처리) https://yijoon009.tistory.com/entry/text-data-preprocessing
+-NLP (자연어 처리)
 -정제화(학습하기 쉽게 다듬는것) 
     -띄어쓰기 없애기, 특수기호 없애기, 불용어 처리, 반복 문자 없애기 등등
 -정규화 (같은 의미나 형태로 통일)
-		-포터 스태머 https://skyjwoo.tistory.com/entry/Porter-Stemmer%ED%8F%AC%ED%84%B0-%EC%8A%A4%ED%85%8C%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90
+	-포터 스태머 (어간 추출 알고리즘)https://skyjwoo.tistory.com/entry/Porter-Stemmer%ED%8F%AC%ED%84%B0-					 
+   	 %EC%8A%A4%ED%85%8C%EB%A8%B8%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90 
 -토큰화 (자연어에서 최소단위 토큰으로 바꾸기) https://dhelloper.tistory.com/59
-		-NLP (자연어 처리)
-			-KoNLPy https://konlpy.org/ko/latest/index.html
+	-KoNLPy https://konlpy.org/ko/latest/index.html
 -벡터화 (단어를 숫자로 바꾸기)
     -Bag of words https://wikidocs.net/22650
 
 3. 모델 정하고 만들기
 -로지스틱 회귀 https://ko.wikipedia.org/wiki/%EB%A1%9C%EC%A7%80%EC%8A%A4%ED%8B%B1_%ED%9A%8C%EA%B7%80
-             https://m.blog.naver.com/winddori2002/221706766540
+              https://m.blog.naver.com/winddori2002/221706766540
 
 4. 학습 
 -모델이 예측
 -예측 결과가 맞는지 확인 -> 어케 앎?? -> 인간이 직접 알려주기 (정답 레이블)
 -그게 맞게 수정
+	https://yhyun225.tistory.com/5
     -손실 (loss) 계산 -> 손실함수 https://modulabs.co.kr/blog/loss-function-machinelearning
-    -손실 (loss)를 줄이기 위해 가중치 수정 (손실함수 최적화 알고리즘) -> 경사하강법 https://twojun-space.tistory.com/124
-    https://yhyun225.tistory.com/5
+    -손실 (loss)를 줄이기 위해 가중치 수정 (손실함수 최적화 알고리즘) -> 경사하강법(기울기로 가중치 업데이트)
+	https://twojunspace.tistory.com/124
+	-역전파 알고리즘 (기울기 계산기) https://yhyun225.tistory.com/22
+	-옵티마이저 https://velog.io/@freesky/Optimizer
 
-질문) 전처리 과정에서 정규화와 토큰화 순서와 기능 차이 헷갈림
-    
+<추가정보>
+-선형 / 비선형 https://kys0411.tistory.com/51
+-기울기 https://amber-chaeeunk.tistory.com/12
+-기울기 소실 https://www.blog.data101.io/388
+-활성화 함수 https://happy-obok.tistory.com/55
+-정규표현식 https://hamait.tistory.com/342
+
+<질문>
+1. 전처리 과정에서 정규화와 토큰화등 순서와 기능 차이 헷갈림, 어디에 속해 있는지.. etc
+	A)
+2. 시그모이드 함수가 뭥미
+	A)
+3. 선형은 가중치 곱하는것, 그렇다면 비선형은 어케 되는거임?
+	A)
+4. 기울기 소실을 렐루 함수가 어케 해결을 하는데?
+	A)
+5. 활성화 함수를 사용하지 않거나 신경망에서 선형 함수를 이용하면 신경망의 층을 깊게하는 의미가 없어지는 이유가?
+	A)
+6. 그니까 경사하강법이 옵티마이저인거임? 아니면 따로따로인데 비슷한 느낌인거임?
