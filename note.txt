@@ -5,6 +5,7 @@
 1. 데이터 모으기
 -cvs 파일형식
     -형식은 평가문, 정답 (lable) 형식으로 주기
+		-KNU 한국어 감성사전 http://dilab.kunsan.ac.kr/knusl.html
 
 2. 데이터 정리하기 (전처리) https://yijoon009.tistory.com/entry/text-data-preprocessing
 -NLP (자연어 처리)
@@ -39,6 +40,7 @@
 -기울기 소실 https://www.blog.data101.io/388
 -활성화 함수 https://happy-obok.tistory.com/55
 -정규표현식 https://hamait.tistory.com/342
+-KNU 한국어 감성사전 http://dilab.kunsan.ac.kr/knusl.html
 
 <질문>
 1. 전처리 과정에서 정규화와 토큰화등 순서와 기능 차이 헷갈림, 어디에 속해 있는지.. etc
