@@ -33,6 +33,11 @@
 	https://twojunspace.tistory.com/124
 	-역전파 알고리즘 (기울기 계산기) https://yhyun225.tistory.com/22
 	-옵티마이저 https://velog.io/@freesky/Optimizer
+	-학습률 스케쥴링 https://box-world.tistory.com/70
+-과적합 방지 https://wikidocs.net/61374
+	-조기 종료
+	-드롭아웃 https://about-ittt.tistory.com/514
+-혼동행렬 https://diseny.tistory.com/entry/%ED%98%BC%EB%8F%99%ED%96%89%EB%A0%ACconfusion-matrix
 
 <추가정보>
 -선형 / 비선형 https://kys0411.tistory.com/51
@@ -40,7 +45,6 @@
 -기울기 소실 https://www.blog.data101.io/388
 -활성화 함수 https://happy-obok.tistory.com/55
 -정규표현식 https://hamait.tistory.com/342
--KNU 한국어 감성사전 http://dilab.kunsan.ac.kr/knusl.html
 
 <질문>
 1. 전처리 과정에서 정규화와 토큰화등 순서와 기능 차이 헷갈림, 어디에 속해 있는지.. etc
